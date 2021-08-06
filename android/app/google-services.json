@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016641934101",
+    "project_id": "easyrecords-8190f",
+    "storage_bucket": "easyrecords-8190f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016641934101:android:7d801ec30f3e7bc6144f1c",
+        "android_client_info": {
+          "package_name": "com.example.easyrecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016641934101-emlk6b79unvog7tqu04aa526b946u2te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdjn-8KTWJAU6BPkusn_gjxjZuYAA7qmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016641934101-emlk6b79unvog7tqu04aa526b946u2te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
