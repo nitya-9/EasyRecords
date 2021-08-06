@@ -1,6 +1,7 @@
 import 'package:easyrecord/DatabaseManager/database.dart';
 import 'package:easyrecord/screens/edit_meeting.dart';
 import 'package:flutter/material.dart';
+import 'package:easyrecord/models/details.dart';
 
 class ViewMeeting extends StatefulWidget {
   final Database value;

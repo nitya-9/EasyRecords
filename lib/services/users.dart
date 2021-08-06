@@ -8,7 +8,7 @@ class UserManagement {
     var firebaseUser = await FirebaseAuth.instance.currentUser();
     Firestore.instance
         .collection('users')
-        .document('grwM29HEDaNJUFiA0YRFDFhWj6x1')
+        .document(firebaseUser.uid)
         .setData({ 'email': users.email, 'uid': users.uid})
         .then((value) => Navigator.push(
         context, MaterialPageRoute(builder: (context) => UserProfile())))

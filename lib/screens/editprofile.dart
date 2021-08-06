@@ -32,7 +32,7 @@ class _EditProfileState extends State<EditProfile> {
 
   fetchUserInfo() async {
     FirebaseUser getUser = await FirebaseAuth.instance.currentUser();
-    userID = 'ZktJbu1i1B197yJ68H7m';
+    userID = '';
   }
   updateData(String name, String email, String contactnum, String userID) async {
     await DatabaseManager().updateUserList(name, email, contactnum, userID);
